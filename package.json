@@ -10,8 +10,9 @@
   },
   "dependencies": {
     "@next/font": "13.2.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
     "ethers": "^5.7.2",
-    "hardhat": "^2.13.0",
+    "hardhat": "^2.17.1",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",

@@ -1,9 +1,16 @@
 import "../styles/globals.css";
 
+import { Footer, Banner, NavBar } from "../Components";
+import { TrackingProvider } from "../Conetxt/TrackingContext";
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Component {...pageProps} />
+      <TrackingProvider>
+        <NavBar />
+        <Component {...pageProps} />
+        <Footer />
+      </TrackingProvider>
     </>
   );
 }
+

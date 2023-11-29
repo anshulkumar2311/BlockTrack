@@ -10,3 +10,26 @@
 .changeImage {
   filter: grayscale(100%);
 }
+
+.custom-bg{
+  background-color: black;
+}
+
+.custom-border{
+  border: 2px solid white !important;
+}
+
+.custom-img-dim{
+  width: 17vw;
+    height: 10vh;
+}
+
+.custom-img-dim2{
+  width: 12vw;
+    height: 10vh;
+}
+
+*{
+  background-color: black;
+  color: white !important;
+}
